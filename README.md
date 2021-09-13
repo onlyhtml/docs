@@ -1,13 +1,16 @@
-# OnlyHtml Docs
+# Getting Started
 
+## How to Install
 
 ## Installation
+
 ```bash
 npm install @onlyhtml/onlyhtml
 ```
 
 Example for `onlyhtml.json` config file
-```json
+
+```javascript
 {
     "hidden_sections": [],
     "sanity": {
@@ -19,10 +22,7 @@ Example for `onlyhtml.json` config file
 }
 ```
 
+## Hosting Your Website
 
-
-
-
-
-
+TODO
 
