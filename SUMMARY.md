@@ -1,4 +1,7 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Getting Started](README.md)
+* [Essentials](essentials.md)
+* [Block Types](block-types.md)
+* [Schema Types](schema-types.md)
 
