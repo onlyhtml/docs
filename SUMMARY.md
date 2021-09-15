@@ -4,5 +4,7 @@
 * [Essentials](essentials.md)
 * [Section Types](section-types.md)
 * [Block Types](block-types.md)
-* [Schema Types](schema-types.md)
+* [Intergrations](intergrations/README.md)
+  * [Sanity.io](intergrations/sanity.io.md)
+* [FAQ](faq.md)
 
