@@ -92,9 +92,12 @@ Another example where there is only one option. In case the input checkbox is no
 {{ic my_opinion type="choice" options="its-on"}} 
 ```
 
+
+
 | Parameter Name | Default Value | Possible Values | Description |
 | :--- | :--- | :--- | :--- |
 | options |  | comma delimited text values |  |
+|  |  |  |  |
 
 ## 
 

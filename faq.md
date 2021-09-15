@@ -1,12 +1,10 @@
 # FAQ
 
-## Can I become who I want to be?
+### Does OnlyHtml support React?
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+React, Svelte and Vue are all great web frameworks and personaly I just love Svelte, but do we really need all this complexity for most websites? OnlyHtml tries to prove a thesis that we can do most things without javascript, and when we must simpler frameworks that don't require heavy dependecies can do the job perfectly. 
 
-## Have you had a chance to answer the previous question?
-
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+For the record, OnlyHtml does not force not using React or any other framework, it's just not conifgured to do so out of the box.
 
 
 
