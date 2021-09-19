@@ -11,8 +11,8 @@ To create a section, just enclose template tags within a section block:
 ```text
 {{#section about}}
 <div>
-  <h2>{{ic title}}</h2>
-  {{ic body type="html"}}
+  <h2>{{oh title}}</h2>
+  {{oh body type="html"}}
 </div>
 {{/section}}
 ```
@@ -21,12 +21,12 @@ To create a section, just enclose template tags within a section block:
 
 Occasionally, you’ll want to create a section that has repeating content, this is what `Collection` is for. For example, let’s say you want to give the ability to edit company office locations:
 
-```text
+```markup
 <ul>
   {{#collection offices}}
     <li>
-      <h5>{{name}}</h5>
-      {{city}}, {{state}}
+      <h5>{{oh name}}</h5>
+      {{oh city}}, {{oh state}}
     </li>
   {{/collection}}
 </ul>
@@ -36,12 +36,12 @@ Occasionally, you’ll want to create a section that has repeating content, this
 
 Some collections require an overview page and a details page. Continuing the example above, we might want to create individual page for each office. For this, we can use the `{{_permalink}}` template tag \(note the underscore before “permalink”\).
 
-```text
+```markup
 <ul>
   {{#collection offices multiple=true}}
     <li>
-      <h5><a href="{{_permalink}}">{{ic name}}</a></h5>
-      {{ic city}}, {{ic state}}
+      <h5><a href="{{_permalink}}">{{oh name}}</a></h5>
+      {{oh city}}, {{oh state}}
     </li>
   {{/collection}}
 </ul>
@@ -49,11 +49,11 @@ Some collections require an overview page and a details page. Continuing the exa
 
 The `{{_permalink}}` tag tells OnlyHtml to create a link for this individual office. When the link is clicked OnlyHtml will render a template file at `www/<collection-name>.html`. In our example OnlyHtml will look for a file named `www/_offices.html` . Here is an example for a details page for our office. 
 
-```text
+```markup
 <body>
 {{#collection_item}}
-    <h1>{{ic title}}</h1>
-    {{ic body type="html"}}
+    <h1>{{oh title}}</h1>
+    {{oh body type="html"}}
 {{/collection_item}}
 </body>
 ```
