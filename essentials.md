@@ -2,7 +2,7 @@
 
 ## Files and Folders
 
-After you’ve installed OnlyHtml, and issued the `vapid init path/to/project` command, you’ll notice that a new folder was created, containing the following:
+After you’ve installed OnlyHtml using a project template you’ll notice that a new folder was created, containing the following:
 
 ```text
 www/
