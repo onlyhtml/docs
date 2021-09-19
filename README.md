@@ -11,48 +11,18 @@ OnlyHtml is a companion to Headless CMS systems like [Sanity.io](https://sanity.
 3. You should be able to learn the basics in a few minutes.
 4. Bring your own Headless CMS of choice or use simple markdown files 
 
-## Installation
+## Running Your First Site
 
-```bash
-npm install @onlyhtml/onlyhtml
-```
+The fastest way to start is to clone one of our templates:
 
-Once you’ve installed OnlyHtml, you can create a new website project by using the following terminal command:
+* [https://github.com/onlyhtml/starter-vanila](https://github.com/onlyhtml/starter-vanila)
+* [https://github.com/onlyhtml/starter-sanity](https://github.com/onlyhtml/starter-sanity)
 
-```text
-onlyhtml init /path/to/project
-```
+The first will setup a website with OnlyHtml installed, ready for fast prototyping but without and dashboard. Starter-Sanity will setup OnlyHtml and connect it to a sanity.io. Read more here [Sanity.io](intergrations/sanity.io.md).
 
-Then, you’ll be able to start the development web server:
+### Auto-Generated Sanity.io Dashboard
 
-```text
-cd /path/to/project
-onlyhtml serve
-```
-
-This will start a server with a "lorem-ipsum" back-end.
-
-{% hint style="info" %}
-Lorem Ipsum is a piece of text, used by designers to fill a space where the content will eventually sit. It helps show how text will look once a piece of content is finished, during the planning phase.
-{% endhint %}
-
-When ready, we can connect a headless CMS of our choice. Currently only Sanity.io is supported. To connect sanity
-
-```text
-onlyhtml init backend sanity
-```
-
-This will update the `onlyhtml.json` configuration files and create a new directory called `./sanity-studio`, read more about Sanity Studio here.
-
-After doing so we can fire up our new CMS dashboard by running
-
-```bash
-onlyhtml export sanity
-cd ./sanity-studio
-sanity start
-```
-
-Visit `localhost:3333` to view and edit your websites content. When ready, you can run `sanity deploy` to deploy the dashboard publicly. 
+![](.gitbook/assets/image%20%283%29.png)
 
 ## Hosting Your Website
 

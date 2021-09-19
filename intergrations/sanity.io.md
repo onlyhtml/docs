@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-We have built a starter project to make it super easy creating a new website with a sanity.io backend. Getting a new project up and ready is as simple as
+We have built a starter project to make it super easy creating a new website with a sanity.io back-end. Getting a new project up and ready is as simple as
 
 ```bash
 git clone git@github.com:onlyhtml/starter-sanity.git
