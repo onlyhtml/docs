@@ -17,6 +17,10 @@ This will start a server with a "lorem-ipsum" backend, it detects which fields a
 Lorem Ipsum is a piece of text, used by designers to fill a space where the content will eventually sit. It helps show how text will look once a piece of content is finished, during the planning phase.
 {% endhint %}
 
+_Building a website in Rapid Prototyping Mode_
+
+{% embed url="https://youtu.be/YJdEDeDvlxo" %}
+
 _An example website run with a rapid prototyping back-end_
 
 ![](../.gitbook/assets/image%20%284%29.png)

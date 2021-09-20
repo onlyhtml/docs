@@ -13,12 +13,14 @@ OnlyHtml is a companion to Headless CMS systems like [Sanity.io](https://sanity.
 
 ## Running Your First Site
 
-The fastest way to insatll and get started is to clone one of our templates:
+The fastest way to install and get started is to clone one of our templates:
 
 * [https://github.com/onlyhtml/starter-vanila](https://github.com/onlyhtml/starter-vanila)
 * [https://github.com/onlyhtml/starter-sanity](https://github.com/onlyhtml/starter-sanity)
 
 The first will setup a website with OnlyHtml installed, ready for fast prototyping but without and dashboard. Starter-Sanity will setup OnlyHtml and connect it to a sanity.io. Read more here [Sanity.io](intergrations/sanity.io.md).
+
+{% embed url="https://youtu.be/oFwXCnnTm1w" %}
 
 ### Auto-Generated Sanity.io Dashboard
 
