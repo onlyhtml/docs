@@ -18,7 +18,19 @@ The fastest way to install and get started is to clone one of our templates:
 * [https://github.com/onlyhtml/starter-vanila](https://github.com/onlyhtml/starter-vanila)
 * [https://github.com/onlyhtml/starter-sanity](https://github.com/onlyhtml/starter-sanity)
 
-The first will setup a website with OnlyHtml installed, ready for fast prototyping but without and dashboard. Starter-Sanity will setup OnlyHtml and connect it to a sanity.io. Read more here [Sanity.io](intergrations/sanity.io.md).
+You can do so by running
+
+```bash
+# installing
+git clone git@github.com:onlyhtml/starter-vanila.git
+cd starter-vanila
+npm install
+
+# running
+onlyhtml serve rapid
+```
+
+The first repository will set up a website with OnlyHtml installed ready for fast prototyping but without a dashboard. `starter-sanity` will set up OnlyHtml and connect it to a sanity.io. Read more here [Sanity.io](intergrations/sanity.io.md).
 
 {% embed url="https://youtu.be/oFwXCnnTm1w" %}
 
