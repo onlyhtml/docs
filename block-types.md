@@ -51,6 +51,7 @@ link is an alias to a text field together with a URL field. It will render a an 
 | Parameter Name | Default Value | Possible Values | Description |
 | :--- | :--- | :--- | :--- |
 | tag | true | true \| false | Render an `a` tag, otherwise the only the URL |
+| onlytext | false | true \| false | Render only the textual value of the link |
 | words | 2 | any number | In [rapid mode](intergrations/rapid-prototyping.md) will generate random link text with the given length |
 
 ### Icon

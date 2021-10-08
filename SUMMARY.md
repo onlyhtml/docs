@@ -4,6 +4,7 @@
 * [Essentials](essentials.md)
 * [Section Types](section-types.md)
 * [Block Types](block-types.md)
+* [Built-In Helpers](built-in-helpers.md)
 * [Backends](intergrations/README.md)
   * [Rapid Prototyping](intergrations/rapid-prototyping.md)
   * [Sanity.io](intergrations/sanity.io.md)
