@@ -94,4 +94,31 @@ Another example where there is only one option. In case the input checkbox is no
 | -------------- | ------------- | --------------------------- | ----------- |
 | options        |               | comma delimited text values |             |
 
-##
+### Reference
+
+{% hint style="info" %}
+This feature is unstable
+{% endhint %}
+
+What if we have a a blog where each post has one author. We could set up a field of a post to be the author name and author picture, problem is it feels we are repeating ourselves. Instead we can use reference fields.&#x20;
+
+For example, lets look at this blog post
+
+```html
+<main>
+    {{#collection_item post}}
+       <h1>{{oh title}}</h1>
+       
+       {{declare author type="reference" target="author"}}
+       {{#with author}}
+         <span>{{name}}</span>
+       {{/with}}
+
+    {{/collection_item}}
+</main>
+```
+
+| Parameter Name | Default Value | Possible Values     | Description                         |
+| -------------- | ------------- | ------------------- | ----------------------------------- |
+| target         |               | any collection name | the collection we want to reference |
+| multiple       | false         | true \| false       | allow selecting more than one item  |
