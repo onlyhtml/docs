@@ -65,7 +65,16 @@ icon renders an `<i>` tag with automatic font-awesome css classes
 
 ### Video
 
-not implemented yet...&#x20;
+Video supports videos stored on Sanity.io using mux.com as a backend.
+
+| tag          | true  | true \| false | Render an `video` tag if true, otherwise the src URL.             |
+| ------------ | ----- | ------------- | ----------------------------------------------------------------- |
+| poster       | image | image \| gif  | What kind of thumbnail should be displayed before video is played |
+| controls     |       | any text      | Adds `contorls` attribute to the image                            |
+| loop         |       | any text      | Adds `loop`attribtue to the image                                 |
+| preload      |       | any text      | Adds `preload` attribute to the image                             |
+| playsinline  |       | any text      | Adds `playsinline` attribute to the image                         |
+| controlsList |       | any text      | Adds `controlsList` attribute to the image                        |
 
 ### Date
 
@@ -73,6 +82,14 @@ not implemented yet...&#x20;
 | -------------- | ------------- | ------------------------------------------------------------------------------------------- | --------------------------------------- |
 | format         | %B %e, %Y     | anything supported by [strftime](https://github.com/samsonjs/strftime#supported-specifiers) | Formats the date                        |
 | timezone       | +0000         |                                                                                             | Sets a specific timezone to input field |
+
+### Code Snippet
+
+Raw code snippet to inserted into the page as is. In CMS will be presented in code aware editor.
+
+| Parameter Name | Default Value | Possible Values         | Description                             |
+| -------------- | ------------- | ----------------------- | --------------------------------------- |
+| language       |               | any known language name | will control syntax highlighting in CMS |
 
 ### Choice
 
